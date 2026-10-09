@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT License"
+
+[[mods]]
+modId = "jaams_weaponry_ex"
+version = "1.0.0"
+displayName = "Jaam's Weaponry: Extended"
+displayURL="https://linktr.ee/jaamleeto"
+logoFile="jaams_weaponry_ex_banner.png"
+authors = "Jaamleeto"
+description = "Allows creating custom weapons and tiers for Jaam's Weaponry via config files. Tiers automatically generate full weapon sets, all fully customizable with custom properties, recipes, tooltips, tags, and mechanics."
+issueTrackerURL="https://github.com/jaamleeto/jaams-weaponry-ex/issues"
+
+[[mixins]]
+config="mixins.jaams_weaponry_ex.json"
+
+[[dependencies.jaams_weaponry_ex]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[47,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.jaams_weaponry_ex]]
+    modId = "jaams_weaponry"
+    mandatory = true
+    versionRange = "[1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+    [modproperties."jaams_weaponry_ex"]
+    catalogueItemIcon="jaams_weaponry:golden_buster_sword"
+    configuredBackground="minecraft:textures/block/spruce_planks.png"

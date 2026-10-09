@@ -1,0 +1,28 @@
+{
+    "jaams_weaponry_ex.tooltip.example.heat": "&6Glows hot after each strike (%1$s, %2$s, %3$s)",
+
+    "jaams_weaponry_ex.on_hit.inflicts": "Inflicts %1$s",
+    "jaams_weaponry_ex.on_hit.inflicts_for": "Inflicts %1$s for %2$s",
+    "jaams_weaponry_ex.on_hit.seconds": "%1$ss",
+    "jaams_weaponry_ex.on_hit.fire": "Fire",
+    "jaams_weaponry_ex.on_hit.lightning": "Lightning",
+    "jaams_weaponry_ex.on_hit.explosion": "an Explosion",
+    "jaams_weaponry_ex.on_hit.summons": "Summons %1$s",
+    "jaams_weaponry_ex.on_hit.heals_for": "Heals you for %1$s",
+    "jaams_weaponry_ex.on_hit.hearts": "%1$s hearts",
+    "jaams_weaponry_ex.on_hit.deals_damage": "Deals +%1$s damage to %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_max": "Deals +%1$s%% of the enemy's max health to %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_target_missing": "Deals +%1$s%% of the enemy's missing health to %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_attacker_missing": "Deals +%1$s%% of your missing health to %2$s",
+    "jaams_weaponry_ex.on_hit.knocks_back": "Knocks the enemy back %1$s",
+    "jaams_weaponry_ex.on_hit.launches": "Launches the enemy %1$s up",
+    "jaams_weaponry_ex.on_hit.summons_entity": "Summons %1$s %2$s times",
+    "jaams_weaponry_ex.on_hit.chains": "Chains +%1$s damage into %2$s",
+    "jaams_weaponry_ex.on_hit.spreads": "Spreads %1$s into %2$s",
+    "jaams_weaponry_ex.on_hit.spawns_particles": "Releases %1$s particles",
+    "jaams_weaponry_ex.on_hit.every_enemy": "every enemy",
+    "jaams_weaponry_ex.on_hit.kinds_of_enemy": "%1$s kinds of enemy",
+    "jaams_weaponry_ex.on_hit.chance": " with %1$s chance",
+    "jaams_weaponry_ex.on_hit.chance_max_strength": " with %1$s chance on fully charged hits",
+    "jaams_weaponry_ex.on_hit.chance_below_max_strength": " with %1$s chance on uncharged hits"
+}

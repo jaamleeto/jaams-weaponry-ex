@@ -1,0 +1,88 @@
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+version = '1.0.0'
+group = 'net.jaams.weaponry_ex'
+archivesBaseName = 'jaams_weaponry_ex'
+
+project.ext.mcVersion = '1.20.1'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+
+    copyIdeResources = true
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                jaams_weaponry_ex {
+                    source sourceSets.main
+                }
+            }
+            if (project.hasProperty('epicfightDebug')) {
+                jvmArgs '-Djaams_weaponry_ex.epicfight_debug=true'
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                jaams_weaponry_ex {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, "${archivesBaseName}.refmap.json"
+}
+
+repositories {
+    maven { url 'https://cursemaven.com/' }
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    // Jaam's Weaponry
+    implementation fg.deobf("curse.maven:jaams-weaponry-1361012:8968577")
+
+    // Epic Fight
+    implementation fg.deobf("curse.maven:epic-fight-mod-405076:7476040")
+
+    // JEI
+    implementation fg.deobf("curse.maven:jei-238222:8964933")
+
+    // Other
+    implementation fg.deobf("curse.maven:configured-457570:5180900")
+    implementation fg.deobf("curse.maven:damage-indicator-reborn-1059519:5512460")
+    implementation fg.deobf("curse.maven:catalogue-459701:4766090")
+}
+
+jar {
+    archiveFileName = "${archivesBaseName}-${project.version}-forge-${mcVersion}.jar"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

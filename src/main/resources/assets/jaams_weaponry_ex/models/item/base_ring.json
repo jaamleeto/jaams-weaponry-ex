@@ -1,0 +1,23 @@
+{
+  "parent": "item/handheld",
+  "loader": "forge:item_layers",
+  "render_types": {
+
+  },
+  "textures": {
+    "layer0": "jaams_weaponry_ex:item/base_ring_0",
+    "layer1": "jaams_weaponry_ex:item/base_ring_1"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [300, -90, 25],
+      "translation": [1.13, 3.2, -0.62],
+      "scale": [0.75, 0.75, 0.75]
+    },
+    "firstperson_lefthand": {
+      "rotation": [300, 90, -25],
+      "translation": [1.13, 3.2, -0.62],
+      "scale": [0.75, 0.75, 0.75]
+    }
+  }
+}

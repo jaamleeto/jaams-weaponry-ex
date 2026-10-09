@@ -1,0 +1,28 @@
+{
+    "jaams_weaponry_ex.tooltip.example.heat": "&6Раскаляется после каждого удара (%1$s, %2$s, %3$s)",
+
+    "jaams_weaponry_ex.on_hit.inflicts": "Наносит %1$s",
+    "jaams_weaponry_ex.on_hit.inflicts_for": "Наносит %1$s на %2$s",
+    "jaams_weaponry_ex.on_hit.seconds": "%1$s с",
+    "jaams_weaponry_ex.on_hit.fire": "Горение",
+    "jaams_weaponry_ex.on_hit.lightning": "молнию",
+    "jaams_weaponry_ex.on_hit.explosion": "взрыв",
+    "jaams_weaponry_ex.on_hit.summons": "Призывает %1$s",
+    "jaams_weaponry_ex.on_hit.heals_for": "Восстанавливает %1$s",
+    "jaams_weaponry_ex.on_hit.hearts": "%1$s сердец",
+    "jaams_weaponry_ex.on_hit.deals_damage": "Наносит +%1$s урона %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_max": "Наносит +%1$s%% от максимального здоровья %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_target_missing": "Наносит +%1$s%% от недостающего здоровья %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_attacker_missing": "Наносит +%1$s%% от вашего недостающего здоровья %2$s",
+    "jaams_weaponry_ex.on_hit.knocks_back": "Отбрасывает врага с силой %1$s",
+    "jaams_weaponry_ex.on_hit.launches": "Подбрасывает врага на %1$s",
+    "jaams_weaponry_ex.on_hit.summons_entity": "Призывает %1$s %2$s раз",
+    "jaams_weaponry_ex.on_hit.chains": "Передаёт +%1$s урона на %2$s",
+    "jaams_weaponry_ex.on_hit.spreads": "Распространяет %1$s на %2$s",
+    "jaams_weaponry_ex.on_hit.spawns_particles": "Выпускает %1$s частиц",
+    "jaams_weaponry_ex.on_hit.every_enemy": "любому врагу",
+    "jaams_weaponry_ex.on_hit.kinds_of_enemy": "%1$s видам врагов",
+    "jaams_weaponry_ex.on_hit.chance": " с вероятностью %1$s",
+    "jaams_weaponry_ex.on_hit.chance_max_strength": " с вероятностью %1$s при полностью заряженном ударе",
+    "jaams_weaponry_ex.on_hit.chance_below_max_strength": " с вероятностью %1$s при незаряженном ударе"
+}

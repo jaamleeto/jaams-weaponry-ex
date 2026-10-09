@@ -1,0 +1,28 @@
+{
+    "jaams_weaponry_ex.tooltip.example.heat": "&6Brilla al rojo tras cada golpe (%1$s, %2$s, %3$s)",
+
+    "jaams_weaponry_ex.on_hit.inflicts": "Inflige %1$s",
+    "jaams_weaponry_ex.on_hit.inflicts_for": "Inflige %1$s durante %2$s",
+    "jaams_weaponry_ex.on_hit.seconds": "%1$s s",
+    "jaams_weaponry_ex.on_hit.fire": "Fuego",
+    "jaams_weaponry_ex.on_hit.lightning": "un Relámpago",
+    "jaams_weaponry_ex.on_hit.explosion": "una Explosión",
+    "jaams_weaponry_ex.on_hit.summons": "Invoca %1$s",
+    "jaams_weaponry_ex.on_hit.heals_for": "Te cura de %1$s",
+    "jaams_weaponry_ex.on_hit.hearts": "%1$s corazones",
+    "jaams_weaponry_ex.on_hit.deals_damage": "Inflige +%1$s de daño a %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_max": "Inflige +%1$s%% de la vida máxima de %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_target_missing": "Inflige +%1$s%% de la vida que le falta a %2$s",
+    "jaams_weaponry_ex.on_hit.deals_damage_percent_attacker_missing": "Inflige +%1$s%% de la vida que te falta a %2$s",
+    "jaams_weaponry_ex.on_hit.knocks_back": "Empuja al enemigo con fuerza %1$s",
+    "jaams_weaponry_ex.on_hit.launches": "Lanza al enemigo %1$s hacia arriba",
+    "jaams_weaponry_ex.on_hit.summons_entity": "Invoca %2$s veces %1$s",
+    "jaams_weaponry_ex.on_hit.chains": "Encadena +%1$s de daño en %2$s",
+    "jaams_weaponry_ex.on_hit.spreads": "Propaga %1$s a %2$s",
+    "jaams_weaponry_ex.on_hit.spawns_particles": "Libera %1$s partículas",
+    "jaams_weaponry_ex.on_hit.every_enemy": "todo enemigo",
+    "jaams_weaponry_ex.on_hit.kinds_of_enemy": "%1$s tipos de enemigo",
+    "jaams_weaponry_ex.on_hit.chance": " con un %1$s de probabilidad",
+    "jaams_weaponry_ex.on_hit.chance_max_strength": " con un %1$s de probabilidad en golpes con la carga al máximo",
+    "jaams_weaponry_ex.on_hit.chance_below_max_strength": " con un %1$s de probabilidad en golpes sin cargar"
+}

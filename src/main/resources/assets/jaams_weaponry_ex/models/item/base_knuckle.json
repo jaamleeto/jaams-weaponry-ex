@@ -1,0 +1,23 @@
+{
+  "parent": "item/handheld",
+  "loader": "forge:item_layers",
+  "render_types": {
+
+  },
+  "textures": {
+    "layer0": "jaams_weaponry_ex:item/base_knuckle_0",
+    "layer1": "jaams_weaponry_ex:item/base_knuckle_1"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [0, -90, 85],
+      "translation": [1.13, 1.95, 1.13],
+      "scale": [0.68, 0.68, 0.68]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -85],
+      "translation": [1.13, 1.95, 1.13],
+      "scale": [0.68, 0.68, 0.68]
+    }
+  }
+}

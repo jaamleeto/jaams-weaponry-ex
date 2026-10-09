@@ -1,0 +1,11 @@
+{
+  "parent": "item/handheld",
+  "loader": "forge:item_layers",
+  "render_types": {
+
+  },
+  "textures": {
+    "layer0": "jaams_weaponry_ex:item/base_saw_cleaver_unfolded_0",
+    "layer1": "jaams_weaponry_ex:item/base_saw_cleaver_unfolded_1"
+  }
+}
